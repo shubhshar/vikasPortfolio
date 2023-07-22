@@ -34,7 +34,7 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log("fafsaf" + result.text);
+          alert("Submit Success");
         },
         (error) => {
           console.log(error.text);
