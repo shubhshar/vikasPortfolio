@@ -34,7 +34,7 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          alert("Submit Success");
+          alert("Submitted Successfully");
         },
         (error) => {
           console.log(error.text);
